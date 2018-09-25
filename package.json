@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "GetJackedMeteor",
   "private": true,
   "scripts": {
@@ -17,5 +18,27 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+=======
+  "name": "GetJacked",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-native": "0.56.1",
+    "react-native-meteor": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "^5",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+>>>>>>> a7362622d35d854880da386fb93596e19bc937e5
   }
 }
